@@ -3,7 +3,7 @@
 
 def sum(nums,target):
     for i in range(len(nums)):
-        for j in range(i+1, len(nums)):
+        for j in range(i+1, len(nums)): #j exists so that we can comapre i with another element
             if nums[i] +nums[j] == target:
                 return True
             
