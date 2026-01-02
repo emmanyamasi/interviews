@@ -1,3 +1,6 @@
+#Given an array of integers nums and an integer target, return True if there exist two distinct numbers in the array whose sum is equal to target. Otherwise, return False.
+
+
 def sum(nums , target):
      seen = set()
 
