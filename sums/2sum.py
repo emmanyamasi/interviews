@@ -9,7 +9,7 @@ def sum(nums , target):
           seen.add(current)
      return False
           
-
+#returns true or false
 nums = [2,7,11,15]
 target = 9
 print("Result", sum(nums,target))   
