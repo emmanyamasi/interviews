@@ -1,10 +1,11 @@
 #You are given a sorted array of integers nums and an integer target.
-
+#Binary search’s job is to quickly find the position of a value in a sorted list.
 #Return the index of the FIRST occurrence of target.
 #If the target does not exist, return -1.
 
 nums = [1, 2, 2, 2, 3, 4, 5]
 target = 2
+
 
 
 def occur(nums,target):
