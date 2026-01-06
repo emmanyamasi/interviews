@@ -1,6 +1,8 @@
 #given an array of sorted number determine if 2 numbers add up to the target value
 #The point of two pointers is to reduce unnecessary work by using position and order instead of brute force. 
-#allow me to solve array and string  problems  efficeintly by moving  through the data in a controlled way intead of nested loops
+#allow me to solve array and string
+#   problems  efficeintly by moving  through the data in a controlled way intead of nested loops
+#use this in aproblem stating sorted array
 def sum_sorted(nums,target):
     left =0
     right = len(nums)-1

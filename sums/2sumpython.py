@@ -4,7 +4,7 @@
 #Brute force checks all possible pairs, which means it repeats comparisons and performs poorly in the worst case, especially for large inputs.
 
 #The optimized solution iterates through the array once.
-#For each number, it calculates the required complement and checks if it has already been seen.
+#For each number, it calculates the required complement-the number needed to add to the current number to reach the target and checks if it has already been seen.
 #If not, the number is stored in a dictionary for future lookups.
 #This reduces the time complexity to O(n) while using additional space, making it the optimal solution for large-scale inputs.
 
@@ -12,7 +12,8 @@
 
 def two_sum(nums , target):
     seen ={} #allows  fast look up and insert
-    
+    #enumerate lets you to loop through  alist
+    #we use for  because we need to look at each number in the list one by one
     for i, current in enumerate(nums):
         needed = target - current
 
